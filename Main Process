@@ -1,0 +1,44 @@
+#include "BluetoothSerial.h"
+#if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
+#error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
+#endif
+int trig=2;
+int led=4;
+int state=0;
+#include <SoftwareSerial.h> 
+#include <TinyGPS.h> 
+float lat = 28.5458,lon = 77.1703;
+TinyGPS gps;
+gpsSerial.begin(9600);
+gps.f_get_position(&lat,&lon);
+BluetoothSerial SerialBT;
+void setup() {
+  Serial.begin(115200);
+  SerialBT.begin("ESP32"); //Bluetooth device name
+  Serial.println("The device started, now you can pair it with bluetooth!");
+  pinMode(trig,INPUT);
+  pinMode(led,OUTPUT);
+}
+void loop() {
+  state=digitalRead(trig);
+  //Serial.println(state);
+  if(state==HIGH){
+    Serial.println("HIGH");
+    SerialBT.write('1');
+    digitalWrite(led,HIGH);
+    delay(200);
+    digitalWrite(led,LOW);
+    delay(200); 
+    String latitude = String(lat,6); 
+  String longitude = String(lon,6); 
+Serial.println(latitude+";"+longitude); 
+delay(1000);
+    delay(2000000);    
+  }
+  else{
+    Serial.println("LOW");
+    SerialBT.write('0');
+    digitalWrite(led,LOW);
+    delay(200);
+  }
+}
