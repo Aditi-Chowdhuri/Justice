@@ -6,6 +6,8 @@ Steps to access the application:
 4) Police2.0 app -> tap on the activity -> mangeta marker shows the location of user in danger
 5) PCB designs for hardware is given  to test the Bluetooth
 6) Here is the link to show hardware communication with MIT app <br>
-   https://www.youtube.com/watch?v=6f8Hlq2bOig<br>
+   https://www.youtube.com/watch?v=6f8Hlq2bOig
+7) Here is the link to show how App works<br>   
    https://www.youtube.com/watch?v=4OjUXfz6zjk
+   
    
