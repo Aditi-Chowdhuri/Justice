@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "334056461157",
+    "firebase_url": "https://alert-go-83f0f.firebaseio.com",
+    "project_id": "alert-go-83f0f",
+    "storage_bucket": "alert-go-83f0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334056461157:android:d2db577f62b3a40723478c",
+        "android_client_info": {
+          "package_name": "com.example.police20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334056461157-hm7veu1c0c5jh9tmq26kcmko58c82rv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeyt0DhkOEDMxPmsLtxgWAC1W7mIvUubo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334056461157-hm7veu1c0c5jh9tmq26kcmko58c82rv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334056461157:android:6e53baf704c1fdba23478c",
+        "android_client_info": {
+          "package_name": "com.example.safety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334056461157-hm7veu1c0c5jh9tmq26kcmko58c82rv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeyt0DhkOEDMxPmsLtxgWAC1W7mIvUubo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334056461157-hm7veu1c0c5jh9tmq26kcmko58c82rv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334056461157:android:d86a49f59241baf623478c",
+        "android_client_info": {
+          "package_name": "com.example.safety20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334056461157-hm7veu1c0c5jh9tmq26kcmko58c82rv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeyt0DhkOEDMxPmsLtxgWAC1W7mIvUubo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334056461157-hm7veu1c0c5jh9tmq26kcmko58c82rv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
